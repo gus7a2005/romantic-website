@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nós 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== TELA INICIAL ===== -->
+    <section class="intro" id="intro">
+        <div class="intro-content">
+            <h1>Eu fiz algo pra você 💌</h1>
+            <p>Prepare seu coração...</p>
+            <button id="startBtn">Iniciar experiência</button>
+        </div>
+    </section>
+
+    <main id="mainContent">
+
+        <!-- SAUDAÇÃO -->
+        <section class="hero">
+            <h1 class="typing"></h1>
+        </section>
+
+        <!-- TEXTO -->
+        <section class="reveal text-section">
+            <p>
+                Desde o dia em que você entrou na minha vida,
+                tudo ficou mais leve, mais bonito e mais verdadeiro.
+                Você é meu melhor sorriso, meu melhor abraço
+                e o melhor capítulo da minha história. 💖
+            </p>
+
+            <p>
+                Você é o maior presente da minha vida meu amor!
+                Você é a minha pessoa preferida nesse mundo e eu agradeço a Deus todos os dias
+                por ter você na minha vida. Amo a forma como a gente se entende e se ama,
+                com você eu me sinto cada dia mais feliz e quero que seja pra sempre assim!
+                Amo cuidar de você, te apoiar, fazer até minhas piadas sem graça pra te ver sorrir.
+                Você é a melhor parte de mim e eu sou tão grato por ter você ao meu lado.
+            </p>
+        </section>
+
+        <!-- CARROSSEL -->
+        <section class="reveal">
+            <div class="carousel-wrapper">
+
+                <button class="nav prev">&#10094;</button>
+
+                <div class="carousel">
+                    <div class="carousel-track">
+
+                        <div class="slide active">
+                            <div class="bg" style="background-image: url('foto1.jpg')"></div>
+                            <img src="/public/foto1.jpg" alt="foto1" class="carousel-img">
+                        </div>
+
+                        <div class="slide">
+                            <div class="bg" style="background-image: url('foto2.jpg')"></div>
+                            <img src="/public/foto2.jpg" alt="foto2" class="carousel-img">
+                        </div>
+
+                        <div class="slide">
+                            <div class="bg" style="background-image: url('foto3.jpg')"></div>
+                            <img src="/public/foto3.jpg" alt="foto3" class="carousel-img">
+                        </div>
+
+                        <div class="slide">
+                            <div class="bg" style="background-image: url('foto4.jpg')"></div>
+                            <img src="/public/foto4.jpg" alt="foto4" class="carousel-img">
+                        </div>
+
+                    </div>
+
+                    <div class="indicators"></div>
+                </div>
+
+                <button class="nav next">&#10095;</button>
+
+            </div>
+        </section>
+
+        <!-- CONTADOR -->
+        <section class="reveal">
+            <h2>Estamos juntos há:</h2>
+            <div id="contador"></div>
+        </section>
+
+        <!-- FRASES -->
+        <section class="reveal frases">
+            <p>✨ Você é meu lugar favorito no mundo.</p>
+            <p>💫 Com você, tudo faz sentido.</p>
+            <p>🌹 Eu escolheria você todos os dias.</p>
+        </section>
+
+        <!-- MÚSICAS -->
+        <section class="reveal music-section">
+            <div class="music-card">
+
+                <h3>Ouvir agora</h3>
+                <a href="https://open.spotify.com/intl-pt/track/1p6dBmCdP7xh3OMTYJDZPK?si=7bef2b4b01054ccc"
+                    target="_blank" class="music-btn">
+                    <span>▶</span>
+                    <div>
+                        <small>Nossa música</small>
+                    </div>
+                </a>
+
+                <h2>ou</h2>
+
+                <h3>Abrir no Spotify</h3>
+                <a href="https://linktr.ee/gumorenocoelho#542628606" target="_blank" class="music-btn">
+                    <span>🎧</span>
+                    <div>
+                        <small>Nossa playlist</small>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
